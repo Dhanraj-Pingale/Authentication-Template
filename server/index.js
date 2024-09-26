@@ -42,6 +42,9 @@ async function main() {
     console.log("Connected to MongoDB");
 
     const usersCollection = client.db("Test").collection("users");
+   
+
+    
 
     // Passport Local Strategy
     passport.use(
